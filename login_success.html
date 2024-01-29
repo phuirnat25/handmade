@@ -19,12 +19,14 @@
             <div class="nav-wrapper">
               <a class="brand-logo">Welcome:<span id="firstname" class="brand-logo">Name</a>
               <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="sass.html">Sass</a></li>
+                <li><a class="waves-effect waves-light btn" id="add_product">Add Product</a></li>
                 <li><a href="badges.html">Components</a></li>
                 <li><a href="collapsible.html">JavaScript</a></li>
               </ul>
             </div>
           </nav>
+    </div>
+    <div id="show_add_product">
     </div>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
@@ -32,6 +34,8 @@
             document.getElementById('firstname').textContent = firstName;
         });
     </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="script.js"></script>
 </body>
 
 </html>
